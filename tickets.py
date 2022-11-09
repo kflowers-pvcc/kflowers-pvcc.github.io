@@ -24,7 +24,7 @@ def main() :
 
 def get_user_data():
     global num_tickets
-    num_tickets = int (input("Number of movie tickets: "))
+    num_tickets = int(input("Number of movie tickets: "))
 
 def perform_calculations():
     global subtotal, sales_tax, total
